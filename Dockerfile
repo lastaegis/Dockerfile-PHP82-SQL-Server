@@ -1,8 +1,8 @@
 FROM alpine:3.19.0
-LABEL author="Kementerian Keuangan - Direktorat Jenderal Kekayaan Negara"
-LABEL maintener="ibnuauliana@kemenkeu.go.id"
+LABEL author="AUTHOR"
+LABEL maintener="EMAIL"
 LABEL version="1.0.0"
-LABEL description="Instansi Service"
+LABEL description="Service Name"
 
 ENV COMPOSER_ALLOW_SUPERUSER=1
 ENV APP_ENV=prod
