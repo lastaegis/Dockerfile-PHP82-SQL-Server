@@ -43,7 +43,12 @@ RUN apk add --no-cache php82 \
     php82-phar \
     php82-pdo \
     php82-dev \
-    php82-pear
+    php82-pear \
+    php82-dom \
+    php82-xmlwriter
+
+# Install Composer
+RUN apk add --no-cache composer
 
 # Install G++ Compiler and Make command
 RUN apk add g++ \
